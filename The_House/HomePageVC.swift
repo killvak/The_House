@@ -34,7 +34,7 @@ setUpMenuButton()
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        self.tabBarController?.toolbarItems![0].image = Constant.mainProfileImg
+//        self.tabBarController?.toolbarItems![0].image = Constant.mainProfileImg
     }
 
     override func didReceiveMemoryWarning() {
@@ -86,5 +86,10 @@ extension HomePageVC : UITableViewDelegate , UITableViewDataSource {
         
         cell.configCell(data: data[indexPath.row])
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = EventDetailsVC()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

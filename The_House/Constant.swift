@@ -13,14 +13,21 @@ class Constant {
     
     
     static var mainColor : UIColor = {
-        if false {
+        if true {
             return UIColor.manBlue
         }else {
             return UIColor.pinkyGirl
         }
     }()
+    static var lightMainColor : UIColor = {
+        if true {
+            return UIColor.lightManBlue
+        }else {
+            return UIColor.lightPinkyGirl
+        }
+    }()
     static var mainProfileImg : UIImage = {
-        if false {
+        if true {
             return UIImage(named:"002-businessman")!
         }else {
             return UIImage(named:"004-woman-avatar")!

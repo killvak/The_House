@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SpeakerCell" customModule="The_House" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="115" height="154"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="115" height="154"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" image="d2" translatesAutoresizingMaskIntoConstraints="NO" id="Xa2-fq-uvq" customClass="UIImageViewX" customModule="The_House" customModuleProvider="target">
+                        <rect key="frame" x="15" y="13" width="85" height="85"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Xa2-fq-uvq" secondAttribute="height" multiplier="1:1" id="LPu-BB-kp5"/>
+                            <constraint firstAttribute="height" constant="85" id="zzL-6U-h65"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="42.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="popIn" value="YES"/>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eslam ABO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="D1P-9Q-OEr">
+                        <rect key="frame" x="3" y="104" width="109" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="D4d-PJ-Qks">
+                        <rect key="frame" x="3" y="124" width="109" height="27"/>
+                        <string key="text">iOS
+DEVELOPER</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="D1P-9Q-OEr" firstAttribute="centerX" secondItem="Xa2-fq-uvq" secondAttribute="centerX" id="FVY-Xe-kJS"/>
+                <constraint firstItem="Xa2-fq-uvq" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="Rgz-2v-9Gz"/>
+                <constraint firstAttribute="trailing" secondItem="D1P-9Q-OEr" secondAttribute="trailing" constant="3" id="Wlw-VS-XOU"/>
+                <constraint firstItem="Xa2-fq-uvq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="YG6-XO-EBt"/>
+                <constraint firstAttribute="trailing" secondItem="D4d-PJ-Qks" secondAttribute="trailing" constant="3" id="Yd0-vX-BKZ"/>
+                <constraint firstItem="D4d-PJ-Qks" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="Zw9-xE-8Ic"/>
+                <constraint firstItem="D1P-9Q-OEr" firstAttribute="top" secondItem="Xa2-fq-uvq" secondAttribute="bottom" constant="6" id="e2u-1Y-uN5"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="D4d-PJ-Qks" secondAttribute="bottom" constant="3" id="uEC-2M-dVm"/>
+                <constraint firstItem="D4d-PJ-Qks" firstAttribute="top" secondItem="D1P-9Q-OEr" secondAttribute="bottom" constant="3" id="vto-3e-LyZ"/>
+                <constraint firstItem="D1P-9Q-OEr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="yQS-mW-C5e"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="115" height="163"/>
+            <point key="canvasLocation" x="66.5" y="110"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="d2" width="640" height="563"/>
+    </resources>
+</document>

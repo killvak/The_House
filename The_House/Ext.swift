@@ -20,6 +20,10 @@ extension UIColor {
     static var  manBlue : UIColor  =  UIColor.setRgp(red: 28, green: 94, blue: 142, alpha: 1)
     static var pinkyGirl = UIColor.setRgp(red: 194, green: 75, blue: 115, alpha: 1)
     static var semiDarkYoutubeRed = UIColor.setRgp(red: 91, green: 14, blue: 13, alpha: 1)
+    
+    static var  lightManBlue : UIColor  =  UIColor.setRgp(red: 76, green: 164, blue: 235, alpha: 1)
+    static var  lightPinkyGirl : UIColor  =  UIColor.setRgp(red: 243, green: 94, blue: 144, alpha: 1)
+
 }
 
 extension UIViewController {
