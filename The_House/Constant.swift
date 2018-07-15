@@ -13,7 +13,7 @@ class Constant {
     
     
     static var mainColor : UIColor = {
-        if true {
+        if false {
             return UIColor.manBlue
         }else {
             return UIColor.pinkyGirl

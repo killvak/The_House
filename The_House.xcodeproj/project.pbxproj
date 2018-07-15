@@ -12,6 +12,7 @@
 		84A2599E20FB8739008BB61F /* SpeakerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2599C20FB8739008BB61F /* SpeakerCell.swift */; };
 		84A2599F20FB8739008BB61F /* SpeakerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A2599D20FB8739008BB61F /* SpeakerCell.xib */; };
 		84A259A120FB924B008BB61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BACE4720F2C43C003308EA /* Assets.xcassets */; };
+		84A259A520FB949C008BB61F /* LightFontColorLbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A259A420FB949C008BB61F /* LightFontColorLbl.swift */; };
 		84C3A38D20FB411200EE80FE /* EventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A38B20FB411200EE80FE /* EventDetailsVC.swift */; };
 		84C3A38E20FB411200EE80FE /* EventDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C3A38C20FB411200EE80FE /* EventDetailsVC.xib */; };
 		F3BACE4120F2C43C003308EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BACE4020F2C43C003308EA /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 		84A2599A20FB7DE4008BB61F /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		84A2599C20FB8739008BB61F /* SpeakerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerCell.swift; sourceTree = "<group>"; };
 		84A2599D20FB8739008BB61F /* SpeakerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeakerCell.xib; sourceTree = "<group>"; };
+		84A259A420FB949C008BB61F /* LightFontColorLbl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightFontColorLbl.swift; sourceTree = "<group>"; };
 		84C3A38B20FB411200EE80FE /* EventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsVC.swift; sourceTree = "<group>"; };
 		84C3A38C20FB411200EE80FE /* EventDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDetailsVC.xib; sourceTree = "<group>"; };
 		F3BACE3D20F2C43C003308EA /* The_House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = The_House.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				F3BACE4420F2C43C003308EA /* Main.storyboard */,
 				84C3A38B20FB411200EE80FE /* EventDetailsVC.swift */,
 				84C3A38C20FB411200EE80FE /* EventDetailsVC.xib */,
+				84A259A420FB949C008BB61F /* LightFontColorLbl.swift */,
 				F3BACE7120FA47F1003308EA /* EventData.swift */,
 				F3BACE5820FA3EE2003308EA /* MainEventCell.swift */,
 				F3BACE5920FA3EE2003308EA /* MainEventCell.xib */,
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A259A520FB949C008BB61F /* LightFontColorLbl.swift in Sources */,
 				F3BACE6C20FA3EF8003308EA /* UIViewAnchorPoint.swift in Sources */,
 				F3BACE6920FA3EF8003308EA /* UILabelX.swift in Sources */,
 				F3BACE6A20FA3EF8003308EA /* UISliderX.swift in Sources */,
