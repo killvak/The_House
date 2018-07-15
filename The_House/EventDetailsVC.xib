@@ -23,7 +23,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" alpha="0.050000000000000003" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bk0" translatesAutoresizingMaskIntoConstraints="NO" id="Zvo-Ig-r4C">
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bk0" translatesAutoresizingMaskIntoConstraints="NO" id="Zvo-Ig-r4C">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                 </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKW-Jq-WZi">
@@ -159,7 +159,7 @@ Marathon</string>
                                         <constraint firstItem="WdD-h7-gdU" firstAttribute="height" secondItem="0p3-N1-pat" secondAttribute="height" multiplier="0.36" id="zya-i1-mEt"/>
                                     </constraints>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWH-9j-xga" customClass="UIButtonX" customModule="The_House" customModuleProvider="target">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWH-9j-xga" customClass="DarkBackGroundBtn" customModule="The_House" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="241" width="375" height="40"/>
                                     <color key="backgroundColor" red="0.074038651629999994" green="0.4024934114" blue="0.70590101520000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>

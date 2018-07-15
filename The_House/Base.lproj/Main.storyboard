@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ALl-cs-tw2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ALl-cs-tw2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -86,6 +84,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ALl-cs-tw2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zlg-28-1wA">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.10980392160000001" green="0.36862745099999999" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -126,7 +125,7 @@
         <scene sceneID="fjC-1M-YPa">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5yc-4k-fdc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="002-businessman" id="V7n-d0-fau"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="004-woman-avatar" id="V7n-d0-fau"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w8C-3i-Ggn">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -163,7 +162,7 @@
         <!--View Controller-->
         <scene sceneID="9u7-Xm-gN5">
             <objects>
-                <viewController id="9fj-Es-F7q" customClass="ViewController" customModule="El_Baat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9fj-Es-F7q" customClass="ViewController" customModule="The_House" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ezf-Ce-XAT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,7 +182,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3PH-xD-boM">
                                         <rect key="frame" x="52.5" y="514" width="270" height="37"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5at-vp-fe7" customClass="UIButtonX" customModule="El_Baat" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5at-vp-fe7" customClass="UIButtonX" customModule="The_House" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="127.5" height="37"/>
                                                 <color key="backgroundColor" red="0.76078431369999999" green="0.29411764709999999" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Sign up">
@@ -198,7 +197,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMA-yz-yT1" customClass="UIButtonX" customModule="El_Baat" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMA-yz-yT1" customClass="UIButtonX" customModule="The_House" customModuleProvider="target">
                                                 <rect key="frame" x="142.5" y="0.0" width="127.5" height="37"/>
                                                 <color key="backgroundColor" red="0.10980392160000001" green="0.36862745099999999" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Login">
@@ -279,7 +278,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="002-businessman" width="32" height="32"/>
+        <image name="004-woman-avatar" width="32" height="32"/>
         <image name="005-world" width="32" height="32"/>
         <image name="ed95ab54a75fbd1e3ef41a5eb4bea281" width="564" height="878"/>
         <image name="ic_Home" width="32" height="32"/>

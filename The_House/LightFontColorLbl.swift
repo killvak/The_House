@@ -11,8 +11,9 @@ import UIKit
 class LightFontColorLbl: UILabel {
  
     override func awakeFromNib() {
-        print("ss")
-        self.textColor = Constant.lightMainColor
+        print(self.text)
+        print("\( Constant.lightMainColor)")
+        self.textColor =   Constant.lightMainColor
     }
 
 }
@@ -20,8 +21,7 @@ class LightFontColorLbl: UILabel {
 class DarkFontColorLbl: UILabel {
     
     override func awakeFromNib() {
-        print("ss")
-        self.textColor = Constant.mainColor
+         self.textColor =  Constant.mainColor
     }
     
 }
@@ -29,8 +29,8 @@ class DarkFontColorLbl: UILabel {
 class LightFontColorBtn: UIButton {
     
     override func awakeFromNib() {
-        print("ss")
-        self.titleLabel?.textColor = Constant.lightMainColor
+      self.setTitleColor(Constant.lightMainColor, for: .normal)
+
     }
     
 }
@@ -38,8 +38,15 @@ class LightFontColorBtn: UIButton {
 class DarkFontColorBtn: UIButton {
     
     override func awakeFromNib() {
-        print("ss")
-                self.titleLabel?.textColor = Constant.mainColor
+         self.setTitleColor(Constant.mainColor, for: .normal)
+    }
+    
+}
+
+class DarkBackGroundBtn: UIButtonX {
+    
+    override func awakeFromNib() {
+         self.backgroundColor = Constant.mainColor
     }
     
 }

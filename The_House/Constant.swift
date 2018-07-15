@@ -11,16 +11,17 @@ import UIKit
 
 class Constant {
     
+    static var isMale = false
     
     static var mainColor : UIColor = {
-        if false {
+        if isMale {
             return UIColor.manBlue
         }else {
             return UIColor.pinkyGirl
         }
     }()
     static var lightMainColor : UIColor = {
-        if true {
+        if isMale {
             return UIColor.lightManBlue
         }else {
             return UIColor.lightPinkyGirl

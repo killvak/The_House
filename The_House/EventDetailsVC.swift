@@ -51,37 +51,37 @@ class EventDetailsVC: UIViewController {
     func getConfigFiles() -> [BPCellConfigFile] {
         return [
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d0")!),
                 title: ""),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d1")!),
                 title: ""),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d2")!),
                 title: ""),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d3")!),
                 title: ""),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d4")!),
                 title: ""),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d2")!),
                 title: "Pocho Copernico zapallo colorin"),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d2")!),
                 title: "Lorena"),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d2")!),
                 title: "Lorena Rodriguez"),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d2")!),
                 title: ""),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d2")!),
                 title: "Jaime Lanisky Patricio"),
             BPCellConfigFile(
-                imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
+                imageType: BPImageType.image(UIImage(named: "d2")!),
                 title: "Pocho Copernico zapallo colorin"),
             BPCellConfigFile(
                 imageType: BPImageType.URL(URL(string: "https://scontent.xx.fbcdn.net/v/t1.0-9/1069929_10200705658781699_1722535463_n.jpg?oh=91653a35620fd278ce2b7a7d026cdf2e&oe=5921B22D")!),
