@@ -89,7 +89,7 @@ extension HomePageVC : UITableViewDelegate , UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = EventDetailsVC()
+        let vc = RegisterVC() // EventDetailsVC()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

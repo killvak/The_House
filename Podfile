@@ -7,5 +7,12 @@ target 'The_House' do
 
   # Pods for The_House
   pod 'BubblePictures' 
+  pod "CDAlertView"
+  pod "UILoadControl"
+  pod 'IQKeyboardManagerSwift'
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'Alamofire', '~> 4.5'
+  pod 'SwiftyJSON'
+  pod 'NVActivityIndicatorView'
 
 end

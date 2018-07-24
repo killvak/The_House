@@ -15,6 +15,8 @@
 		84A259A520FB949C008BB61F /* LightFontColorLbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A259A420FB949C008BB61F /* LightFontColorLbl.swift */; };
 		84C3A38D20FB411200EE80FE /* EventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A38B20FB411200EE80FE /* EventDetailsVC.swift */; };
 		84C3A38E20FB411200EE80FE /* EventDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C3A38C20FB411200EE80FE /* EventDetailsVC.xib */; };
+		F37FCE02210688FF00AC85C5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37FCE00210688FF00AC85C5 /* RegisterVC.swift */; };
+		F37FCE03210688FF00AC85C5 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F37FCE01210688FF00AC85C5 /* RegisterVC.xib */; };
 		F3BACE4120F2C43C003308EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BACE4020F2C43C003308EA /* AppDelegate.swift */; };
 		F3BACE4320F2C43C003308EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BACE4220F2C43C003308EA /* ViewController.swift */; };
 		F3BACE4620F2C43C003308EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BACE4420F2C43C003308EA /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		84A259A420FB949C008BB61F /* LightFontColorLbl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightFontColorLbl.swift; sourceTree = "<group>"; };
 		84C3A38B20FB411200EE80FE /* EventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsVC.swift; sourceTree = "<group>"; };
 		84C3A38C20FB411200EE80FE /* EventDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDetailsVC.xib; sourceTree = "<group>"; };
+		F37FCE00210688FF00AC85C5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F37FCE01210688FF00AC85C5 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
 		F3BACE3D20F2C43C003308EA /* The_House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = The_House.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BACE4020F2C43C003308EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3BACE4220F2C43C003308EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				F3BACE5820FA3EE2003308EA /* MainEventCell.swift */,
 				F3BACE5920FA3EE2003308EA /* MainEventCell.xib */,
 				F3BACE4720F2C43C003308EA /* Assets.xcassets */,
+				F37FCE00210688FF00AC85C5 /* RegisterVC.swift */,
+				F37FCE01210688FF00AC85C5 /* RegisterVC.xib */,
 				F3BACE5C20FA3EF8003308EA /* DesignableX */,
 				F3BACE4920F2C43C003308EA /* LaunchScreen.storyboard */,
 				F3BACE4C20F2C43C003308EA /* Info.plist */,
@@ -171,6 +177,7 @@
 				F3BACE3A20F2C43C003308EA /* Frameworks */,
 				F3BACE3B20F2C43C003308EA /* Resources */,
 				ABCD40E32A4C1CC96E9528FC /* [CP] Embed Pods Frameworks */,
+				219B9D07751CFC0143652549 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +231,7 @@
 				84A2599F20FB8739008BB61F /* SpeakerCell.xib in Resources */,
 				84C3A38E20FB411200EE80FE /* EventDetailsVC.xib in Resources */,
 				F3BACE5B20FA3EE2003308EA /* MainEventCell.xib in Resources */,
+				F37FCE03210688FF00AC85C5 /* RegisterVC.xib in Resources */,
 				84A259A120FB924B008BB61F /* Assets.xcassets in Resources */,
 				F3BACE4620F2C43C003308EA /* Main.storyboard in Resources */,
 			);
@@ -250,6 +258,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		219B9D07751CFC0143652549 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The_House/Pods-The_House-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		ABCD40E32A4C1CC96E9528FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,13 +280,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-The_House/Pods-The_House-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BubblePictures/BubblePictures.framework",
+				"${BUILT_PRODUCTS_DIR}/CDAlertView/CDAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UILoadControl/UILoadControl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BubblePictures.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UILoadControl.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -295,6 +332,7 @@
 				F3BACE6720FA3EF8003308EA /* UIButtonX.swift in Sources */,
 				F3BACE5A20FA3EE2003308EA /* MainEventCell.swift in Sources */,
 				84C3A38D20FB411200EE80FE /* EventDetailsVC.swift in Sources */,
+				F37FCE02210688FF00AC85C5 /* RegisterVC.swift in Sources */,
 				F3BACE5520F2C700003308EA /* HomePageVC.swift in Sources */,
 				F3BACE5320F2C64A003308EA /* Ext.swift in Sources */,
 			);
